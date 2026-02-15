@@ -1,0 +1,14 @@
+{
+  "name": "@blackcrown/core",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./storage": "./src/storage.ts",
+    "./eventBus": "./src/eventBus.ts",
+    "./featureFlags": "./src/featureFlags.ts",
+    "./analytics": "./src/analytics.ts",
+    "./ws": "./src/ws.ts"
+  },
+  "files": ["src"]
+}
