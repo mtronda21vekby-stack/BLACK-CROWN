@@ -1,0 +1,23 @@
+{
+  "name": "blackcrown-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=8"
+  },
+  "scripts": {
+    "dev:site": "pnpm --filter @blackcrown/site dev",
+    "dev:game": "pnpm --filter @blackcrown/game dev",
+    "dev:lobby": "pnpm --filter @blackcrown/lobby dev",
+    "build:site": "pnpm --filter @blackcrown/site build",
+    "build:game": "pnpm --filter @blackcrown/game build",
+    "build:lobby": "pnpm --filter @blackcrown/lobby build",
+    "build:all": "pnpm build:site && pnpm build:game && pnpm build:lobby",
+    "typecheck": "pnpm -r typecheck",
+    "lint": "pnpm -r lint"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
