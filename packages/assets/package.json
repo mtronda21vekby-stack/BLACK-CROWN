@@ -1,0 +1,11 @@
+{
+  "name": "@blackcrown/assets",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./tokens": "./src/tokens/index.ts",
+    "./icons": "./src/icons/index.ts"
+  },
+  "files": ["src"]
+}
