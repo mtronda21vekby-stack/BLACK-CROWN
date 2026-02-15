@@ -1,0 +1,13 @@
+{
+  "name": "@blackcrown/ui",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": ["src"],
+  "peerDependencies": {
+    "react": "^18",
+    "react-dom": "^18"
+  }
+}
